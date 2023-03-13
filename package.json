@@ -1,0 +1,44 @@
+{
+  "name": "pro",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "cross-env NODE_ENV=local_development vue-cli-service serve --open"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "core-js": "^3.6.5",
+    "lodash-es": "^4.17.21",
+    "vant": "^3.4.8",
+    "normalize.css": "^8.0.1",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0",
+    "weixin-js-sdk": "^1.6.0",
+    "qs": "^6.11.0",
+    "vconsole": "^3.14.6"
+  },
+  "devDependencies": {
+    "@tencent/eslint-config-tencent": "^0.16.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.20.2",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "prettier": "^2.5.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
